@@ -28,4 +28,4 @@ No build step. Download or clone the repo and open `index.html` in your browser.
 All the balance numbers live in the `CONFIG` object at the top of `script.js`: tick speed, decay rates, what each button does, exhaustion length, and the thresholds for colors and moods. Change a number and reload to make the game easier or harder.
 
 
-This is a project for terra
+I created this project for terra
