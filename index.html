@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Pixel Pal</h1>
+        
+        <!-- Pet Avatar / Visual Area -->
+        <div id="pet-avatar" class="happy">🐱</div>
+        <p id="pet-status">Feeling great!</p>
+
+        <!-- Stats Section -->
+        <div class="stats-container">
+            <div class="stat-bar">
+                <span>Hunger: <span id="hunger-val">100</span></span>
+                <div class="bar"><div id="hunger-fill" class="fill"></div></div>
+            </div>
+            <div class="stat-bar">
+                <span>Happiness: <span id="happy-val">100</span></span>
+                <div class="bar"><div id="happy-fill" class="fill"></div></div>
+            </div>
+            <div class="stat-bar">
+                <span>Energy: <span id="energy-val">100</span></span>
+                <div class="bar"><div id="energy-fill" class="fill"></div></div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="actions">
+            <button id="feed-btn">Feed</button>
+            <button id="play-btn">Play</button>
+            <button id="sleep-btn">Sleep</button>
+            <button id="reset-btn" hidden>Adopt a new pet</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
